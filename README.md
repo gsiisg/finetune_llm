@@ -25,6 +25,5 @@ fine tuning llm from huggingface
 - click "Existing Jupyter Server"
 - paste in the copied line wtih token
 - give it a name (can be blank) then select "Python 3 (ipykernel)" (NOTE: may require installing ipykernel )
-
-# Source 
-####(https://blog.ovhcloud.com/fine-tuning-llama-2-models-using-a-single-gpu-qlora-and-ai-notebooks/)
+ 
+#### Source (https://blog.ovhcloud.com/fine-tuning-llama-2-models-using-a-single-gpu-qlora-and-ai-notebooks/)
