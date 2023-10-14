@@ -12,6 +12,7 @@ fine tuning llm from huggingface
 - use powershell window run ```wsl```
 - go to directory above mounted directory e.g. ```cd /mnt/c/Users/gsiis/Documents/mount_src``` (NOTE: /mnt/c takes place of C:\)
 - give permission to write to mount folder e.g. ```chmod 777 -R finetune_lm```
+- if it still doesn't work, do the same command from a docker bash command with sudo
 
 ## on docker
 - create jupyter config by running ```jupyter notebook --generate-config```
