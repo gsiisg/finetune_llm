@@ -5,13 +5,14 @@ fine tuning llm from huggingface
 - install WSL2 on windows (this is for my home desktop)
 - install image from https://rapids.ai/
 - alias the following ```docker run --user rapids -it --rm --gpus all --name Geoffrey_Container -p 8888:8888 -v C:\Users\gsiis\Documents\mount_src:/home/rapids/mounted rapidsai```
+- change user to root for changes needing su
 - run previous alias to go inside docker
 - give account ```rapids``` the ability to use sudo via logging in as root and ```passwd rapids``` (may need to add rapids to sudo group, this will make it easy to install things which requires sudo)
 
 ## on windows
 - use powershell window run ```wsl```
 - go to directory above mounted directory e.g. ```cd /mnt/c/Users/gsiis/Documents/mount_src``` (NOTE: /mnt/c takes place of C:\)
-- give permission to write to mount folder e.g. ```chmod 777 -R finetune_lm```
+- may need to give permission to write to mount folder e.g. ```chmod 777 -R finetune_lm```
 - if it still doesn't work, do the same command from a docker bash command with sudo
 
 ## on docker
